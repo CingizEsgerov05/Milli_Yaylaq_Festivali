@@ -13,7 +13,12 @@ class _LoginPageState extends State<LoginPage> {
     return Scaffold(
       body: Center(
         child: Column(
-          children: [],
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Stack(
+              children: [SizedBox(height: 200, width: 200)],
+            )
+          ],
         ),
       ),
     );
