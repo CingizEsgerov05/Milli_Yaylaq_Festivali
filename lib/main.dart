@@ -17,10 +17,12 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Color.fromARGB(255, 119, 171, 34),
+        ),
         useMaterial3: true,
       ),
-      home: LoadingPage(),
+      home: LoginPage(),
     );
   }
 }

@@ -6,8 +6,7 @@ class LoadingPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(child: Image.asset("images/loading.png")),
-      backgroundColor: Color.fromARGB(255, 119, 171, 34),
-    );
+        body: Center(child: Image.asset("images/loading.png")),
+        backgroundColor: Theme.of(context).primaryColor);
   }
 }
