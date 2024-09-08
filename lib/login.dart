@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:milli_yaylaq_fest/pass_recover.dart';
 
 class LoginPage extends StatefulWidget {
