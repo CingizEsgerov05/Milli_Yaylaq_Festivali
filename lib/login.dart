@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:milli_yaylaq_fest/assets/images.dart';
 import 'package:milli_yaylaq_fest/pass_recover.dart';
 
 class LoginPage extends StatefulWidget {
@@ -24,10 +25,7 @@ class _LoginPageState extends State<LoginPage> {
             children: [
               SizedBox(
                 width: 300,
-                child: Image.asset(
-                  "images/myf_logo_2.png",
-                  fit: BoxFit.fitWidth,
-                ),
+                child: ProjectImages().bigLogo,
               ),
               const SizedBox(
                 height: 20,
