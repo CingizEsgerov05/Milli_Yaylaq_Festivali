@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:milli_yaylaq_fest/assets/project_themes.dart';
-import 'package:milli_yaylaq_fest/loading.dart';
-import 'package:milli_yaylaq_fest/login.dart';
+import 'package:milli_yaylaq_fest/Pages/loading.dart';
+import 'package:milli_yaylaq_fest/Pages/login.dart';
 
 void main() {
   runApp(const MyApp());
